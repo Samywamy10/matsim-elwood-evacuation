@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE transitSchedule SYSTEM "http://www.matsim.org/files/dtd/transitSchedule_v1.dtd">
+<transitSchedule>
+    <transitStops>
+        <stopFacility id="1" x="1.6141632226832656E7" y="-4564170.219945342" linkRefId= "389629943_4" name="stop1"/>
+        <stopFacility id="2" x="1.6143126101003256E7" y="-4567282.359673435" linkRefId= "198451748_9" name="stop2"/>
+    </transitStops>
+    <transitLine id="Blue Line">
+		<transitRoute id="1to3">
+			<transportMode>bus</transportMode>
+			<routeProfile>
+				<stop refId="1" departureOffset="00:00:00"/>
+				<stop refId="2" arrivalOffset="00:00:30"    />
+			</routeProfile>
+			<route>
+				<link refId="389629943_4"/>
+				<link refId="389629943_5"/>
+                <link refId="389629943_6"/>
+				<link refId="389629943_7"/>
+				<link refId="389629943_8"/>
+                <link refId="389629943_9"/>
+                <link refId="484847706_0"/>
+                <link refId="484847707_0"/>
+                <link refId="100784498_0"/>
+                <link refId="100784498_1"/>
+                <link refId="100784498_2"/>
+                <link refId="579387699_0"/>
+                <link refId="579387701_0"/>
+                <link refId="198452127_0"/>
+                <link refId="198452127_1"/>
+                <link refId="198452127_2"/>
+                <link refId="198452129_0"/>
+                <link refId="198452129_1"/>
+                <link refId="211260656_0"/>
+                <link refId="198452369_0"/>
+                <link refId="198451764_0"/>
+                <link refId="198451764_1"/>
+                <link refId="198451764_2"/>
+                <link refId="198451764_3"/>
+                <link refId="389071084_0"/>
+                <link refId="389071084_1"/>
+                <link refId="389071085_0"/>
+                <link refId="389071085_1"/>
+                <link refId="579388393_0"/>
+                <link refId="579388393_1"/>
+                <link refId="579388393_2"/>
+                <link refId="579388391_0"/>
+                <link refId="198451748_0"/>
+                <link refId="198451748_1"/>
+                <link refId="198451748_2"/>
+                <link refId="198451748_3"/>
+                <link refId="198451748_4"/>
+                <link refId="198451748_5"/>
+                <link refId="198451748_6"/>
+                <link refId="198451748_7"/>
+                <link refId="198451748_8"/>
+                <link refId="198451748_9"/>
+			</route>
+			<departures>
+                <departure id="1" departureTime="00:00:00" vehicleRefId="bus_1" />
+                <departure id="2" departureTime="01:01:00" vehicleRefId="bus_2" />
+                <departure id="3" departureTime="01:02:00" vehicleRefId="bus_3" />
+                <departure id="4" departureTime="01:03:00" vehicleRefId="bus_4" />
+                <departure id="5" departureTime="01:04:00" vehicleRefId="bus_5" />
+                <departure id="6" departureTime="01:05:00" vehicleRefId="bus_6" />
+                <departure id="7" departureTime="01:06:00" vehicleRefId="bus_7" />
+                <departure id="8" departureTime="01:07:00" vehicleRefId="bus_8" />
+                <departure id="9" departureTime="01:08:00" vehicleRefId="bus_9" />
+                <departure id="10" departureTime="01:09:00" vehicleRefId="bus_10" />
+			</departures>
+		</transitRoute>
+    </transitLine>
+</transitSchedule>
