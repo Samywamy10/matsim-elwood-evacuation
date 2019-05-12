@@ -4,7 +4,6 @@
 	<module name="global">
 		<param name="randomSeed" value="4711"/>
 		<param name="coordinateSystem" value="Atlantis"/>
-		<param name="numberOfThreads" value="8"/>
 	</module>
 
 	<module name="network">
@@ -30,7 +29,6 @@
 		<param name="flowCapacityFactor" value="0.1"/>
 		<param name="storageCapacityFactor" value="0.1"/>
 		<param name="snapshotperiod" value="00:00:00"/> <!-- 00:00:00 means NO snapshot writing -->
-		<param name="numberOfThreads" value="8"/>
 	</module>
 
 	<module name="planCalcScore">
@@ -89,12 +87,12 @@
 
 		<parameterset type="strategysettings">
 			<param name="strategyName" value="BestScore"/>
-			<param name="weight" value="0.8999999999999999"/>
+			<param name="weight" value="0.90"/>
 		</parameterset>
 
 		<parameterset type="strategysettings">
 			<param name="strategyName" value="ReRoute"/>
-			<param name="weight" value="0.05"/>
+			<param name="weight" value="0.10"/>
 		</parameterset>
 
 		<parameterset type="strategysettings">
@@ -103,7 +101,7 @@
 		</parameterset>
 		<parameterset type="strategysettings">
 			<param name="strategyName" value="ChangeTripMode"/>
-			<param name="weight" value="0.05"/>
+			<param name="weight" value="0.10"/>
 		</parameterset>
 
 	</module>

@@ -17,7 +17,7 @@ class NetworkChangeEvents(XmlElement):
         currentTime = parser.parse(currentTime) + timedelta(seconds=addSeconds)
         return currentTime.strftime("%H:%M:%S")
         
-    def generateNetworkChangeEvents(self, inputfile):
+    def generateNetworkChangeEvents(self, inputfile, floodSpacing):
         current = 0
         startTime = '01:00:01'
         with open(inputfile, 'r') as floodingFile:
@@ -27,7 +27,7 @@ class NetworkChangeEvents(XmlElement):
                         freespeed = Freespeed()
                         networkChangeEvent.addFreespeed(freespeed)
                     networkChangeEvent = NetworkChangeEvent(startTime)
-                    startTime = self.addToTime(startTime,1)
+                    startTime = self.addToTime(startTime,floodSpacing)
                     self.addNetworkChangeEvent(networkChangeEvent)
                     current += 1
                 else:
