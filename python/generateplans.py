@@ -167,8 +167,8 @@ with open('../inputs.csv','r') as f:
         splitLine[5], splitLine[6], splitLine[7], splitLine[8] = generatePlans(splitLine[0],splitLine[1],splitLine[2],splitLine[3],splitLine[4])
         results.append(splitLine)
 
-with open('../results.csv','w') as f:
-    f.write(header)
+with open('../results.csv','a') as f:
+    #f.write(header)
     for result in results:
         f.write(','.join(result) + '\n')
 
