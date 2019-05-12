@@ -4,7 +4,7 @@
 	<module name="global">
 		<param name="randomSeed" value="4711"/>
 		<param name="coordinateSystem" value="Atlantis"/>
-		<param name="numberOfThreads" value="8"/>
+		<param name="numberOfThreads" value="16"/>
 	</module>
 
 	<module name="network">
@@ -30,7 +30,7 @@
 		<param name="flowCapacityFactor" value="0.1"/>
 		<param name="storageCapacityFactor" value="0.1"/>
 		<param name="snapshotperiod" value="00:00:00"/> <!-- 00:00:00 means NO snapshot writing -->
-		<param name="numberOfThreads" value="8"/>
+		<param name="numberOfThreads" value="16"/>
 	</module>
 
 	<module name="planCalcScore">
