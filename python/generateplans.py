@@ -89,7 +89,7 @@ def generatePlans(numberOfBuses,busSpacing,reRoute,changeLegMode,floodSpacing):
     modifyConfig(reRoute, changeLegMode)
 
     os.chdir('../')
-    subprocess.call(['java', '-cp', 'matsim-0.10.1.jar', 'org.matsim.run.Controler', './config.xml', '-Xmx16024m'])
+    subprocess.call(['java', '-cp', 'matsim-0.10.1.jar', 'org.matsim.run.Controler', './config.xml', '-Xmx16024m', '-d64'])
 
     #summarise trip durations and total evacuation times into one file
     tripDurations = []
