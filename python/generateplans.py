@@ -14,21 +14,30 @@ from transitschedule import TransitSchedule, StopFacility, TransitLine, TransitR
 from multiprocessing.dummy import Pool as ThreadPool 
 from glob import glob
 import re
+import shutil
 
 def modifyConfig(reRoute,changeTripMode):
     config = lxml.etree.parse('../config.xml')
     #ReRoute
     totalValue = 1.00
-    if reRoute:
+    if reRoute == 'TRUE':
         reRoute = config.xpath("module[@name='strategy']/parameterset[param/@value='ReRoute']/param[@name='weight']")[0]
         weight = 0.05
         reRoute.attrib["value"] = str(weight)
         totalValue -= weight
-    if changeTripMode:
+    else:
+        reRoute = config.xpath("module[@name='strategy']/parameterset[param/@value='ReRoute']/param[@name='weight']")[0]
+        weight = 0.00
+        reRoute.attrib["value"] = str(weight)
+    if changeTripMode == 'TRUE':
         changeTripMode = config.xpath("module[@name='strategy']/parameterset[param/@value='ChangeTripMode']/param[@name='weight']")[0]
         weight = 0.05
         changeTripMode.attrib["value"] = str(weight)
         totalValue -= weight
+    else:
+        changeTripMode = config.xpath("module[@name='strategy']/parameterset[param/@value='ChangeTripMode']/param[@name='weight']")[0]
+        weight = 0.00
+        changeTripMode.attrib["value"] = str(weight)
     bestScore = config.xpath("module[@name='strategy']/parameterset[param/@value='BestScore']/param[@name='weight']")[0]
     bestScore.attrib["value"] = str(totalValue)
     with open('../config.xml', 'wb') as f:
@@ -56,37 +65,41 @@ def generatePlans(numberOfBuses,busSpacing,reRoute,changeLegMode,floodSpacing):
     networkChangeEvents.writeTreeToFile("../networkChangeEvents.xml")
 
     #vehicles
-    vehicleDefinitions = VehicleDefinitions()
-    bus = VehicleType("Bus",80,0,50.0)
-    vehicleDefinitions.addVehicleType(bus)
-    vehicleDefinitions.generateVehicles(0,int(numberOfBuses))
-    vehicleIds = vehicleDefinitions.vehicleIds
-    vehicleDefinitions.writeTreeToFile("../vehicles.xml")
+    if int(numberOfBuses) > 0:
+        vehicleDefinitions = VehicleDefinitions()
+        bus = VehicleType("Bus",80,0,50.0)
+        vehicleDefinitions.addVehicleType(bus)
+        vehicleDefinitions.generateVehicles(0,int(numberOfBuses))
+        vehicleIds = vehicleDefinitions.vehicleIds
+        vehicleDefinitions.writeTreeToFile("../vehicles.xml")
 
-    #transit schedule
-    transitSchedule = TransitSchedule()
-    stop1 = StopFacility("1.6141632226832656E7","-4564170.219945342","389629943_4","stop1")
-    stop2 = StopFacility("1.6143126101003256E7","-4567282.359673435","198451748_9","stop2")
-    transitSchedule.addStopFacility(stop1)
-    transitSchedule.addStopFacility(stop2)
-    transitLine = TransitLine("Bus trip")
-    transitRoute = TransitRoute("Bus route","bus")
-    stop1 = Stop(0)
-    stop1.setDepartureOffset("00:00:00")
-    transitRoute.addStop(stop1)
-    stop2 = Stop(1)
-    stop2.setArrivalOffset("00:00:30")
-    transitRoute.addStop(stop2)
-    transitRoute.addRouteLinksFromFile("../route1links.txt")
-    transitRoute.generateDepartures(vehicleIds, int(busSpacing))
-    transitLine.addTransitRoute(transitRoute)
-    transitSchedule.addTransitLine(transitLine)
+        #transit schedule
+        transitSchedule = TransitSchedule()
+        stop1 = StopFacility("1.6141632226832656E7","-4564170.219945342","389629943_4","stop1")
+        stop2 = StopFacility("1.6143126101003256E7","-4567282.359673435","198451748_9","stop2")
+        transitSchedule.addStopFacility(stop1)
+        transitSchedule.addStopFacility(stop2)
+        transitLine = TransitLine("Bus trip")
+        transitRoute = TransitRoute("Bus route","bus")
+        stop1 = Stop(0)
+        stop1.setDepartureOffset("00:00:00")
+        transitRoute.addStop(stop1)
+        stop2 = Stop(1)
+        stop2.setArrivalOffset("00:00:30")
+        transitRoute.addStop(stop2)
+        transitRoute.addRouteLinksFromFile("../route1links.txt")
+        transitRoute.generateDepartures(vehicleIds, int(busSpacing))
+        transitLine.addTransitRoute(transitRoute)
+        transitSchedule.addTransitLine(transitLine)
 
-    header2 = '<!DOCTYPE transitSchedule SYSTEM "http://www.matsim.org/files/dtd/transitSchedule_v1.dtd">'
-    transitSchedule.writeTreeToFile("../transitSchedule.xml", header2)
+        header2 = '<!DOCTYPE transitSchedule SYSTEM "http://www.matsim.org/files/dtd/transitSchedule_v1.dtd">'
+        transitSchedule.writeTreeToFile("../transitSchedule.xml", header2)
 
     #config
-    modifyConfig(reRoute, changeLegMode)
+    if int(numberOfBuses) > 0:
+        modifyConfig(reRoute, changeLegMode)
+    else:
+        modifyConfig(reRoute, False)
 
     os.chdir('../')
     subprocess.call(['java', '-cp', 'matsim-0.10.1.jar', 'org.matsim.run.Controler', './config.xml', '-Xmx16024m', '-d64'])
@@ -148,10 +161,12 @@ def generatePlans(numberOfBuses,busSpacing,reRoute,changeLegMode,floodSpacing):
             tripDistances.append(tripdistance)
 
     with open('output/iterationSummary.txt', 'w') as f:
-        f.write('ITERATION\tAVG. Trip Duration\tevacuation end seconds\tcar ratio\ttrip distances\n')
+        f.write('ITERATION\tAvgTripDuration\tEvacuationEndSeconds\tCarRatio\tAvgTravelDistance\n')
         for idx, tripDuration in enumerate(tripDurations):
             f.write(f'{idx}\t{tripDuration}\t{totalEvacuationTimes[idx]}\t{modeSplit[idx]}\t{tripDistances[idx]}\n')
-    os.rename('output',f'nobus{numberOfBuses}-busspace{busSpacing}-rrw{reRoute}-clmw{changeLegMode}-flood{floodSpacing}')
+    folderName = f'nobus{numberOfBuses}-busspace{busSpacing}-rrw{reRoute}-clmw{changeLegMode}-flood{floodSpacing}'
+    os.rename('output',folderName)
+    shutil.move(folderName, f'outputs/{folderName}')
     os.chdir('python')
     return (tripDurations[-1],tripDistances[-1],modeSplit[-1],totalEvacuationTimes[-1])
 
@@ -166,10 +181,7 @@ with open('../inputs.csv','r') as f:
         splitLine = line.split(',')
         splitLine[5], splitLine[6], splitLine[7], splitLine[8] = generatePlans(splitLine[0],splitLine[1],splitLine[2],splitLine[3],splitLine[4])
         results.append(splitLine)
-
-with open('../results.csv','a') as f:
-    #f.write(header)
-    for result in results:
-        f.write(','.join(result) + '\n')
+        with open('../results.csv','a') as f:
+            f.write(','.join(splitLine) + '\n') 
 
 
