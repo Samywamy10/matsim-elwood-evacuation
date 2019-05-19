@@ -1,0 +1,712 @@
+2019-05-19 17:53:03,048  WARN ControlerConfigGroup:365 setting overwriting behavior to overwriteExistingFiles
+2019-05-19 17:53:03,048  WARN ControlerConfigGroup:366 this is not recommended, as it might result in a directory containing output from several model runs
+2019-05-19 17:53:03,050  WARN ControlerConfigGroup:367 prefer the options deleteDirectoryIfExists or failIfDirectoryExists
+2019-05-19 17:53:06,113 ERROR BasicPlanAgentImpl:165 last activity of person driver agent id 9882289769 has end time < infty; setting it to infty
+2019-05-19 17:53:06,119 ERROR BasicPlanAgentImpl:166  This message given only once.
+2019-05-19 17:53:24,963  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:53:24,964  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:53:24,964  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:53:24,964  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=203054203_7][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:53:24,964  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257010_1][startTime=00:55:19][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:53:24,964  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:53:24,964  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:53:40,949  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:53:40,949  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:53:40,950  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:53:40,950  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=203054203_7][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:53:40,950  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257010_1][startTime=00:53:45][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:53:40,950  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:53:40,950  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:53:56,098  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:53:56,098  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:53:56,098  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:53:56,098  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:53:56,098  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:53:18][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:53:56,098  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:53:56,098  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:54:10,256  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:54:10,256  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:54:10,256  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:54:10,256  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=203054203_7][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:54:10,257  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257010_1][startTime=00:50:50][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:54:10,257  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:54:10,258  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:54:23,743  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:54:23,743  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:54:23,744  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:54:23,744  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:54:23,744  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:47:56][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:54:23,744  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:54:23,744  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:54:37,264  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:54:37,265  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:54:37,265  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:54:37,265  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:54:37,265  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:44:27][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:54:37,265  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:54:37,265  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:54:50,231  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:54:50,232  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:54:50,232  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:54:50,232  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:54:50,232  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:40:48][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:54:50,232  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:54:50,232  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:55:03,545  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:55:03,545  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:55:03,545  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:55:03,545  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:55:03,545  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:38:28][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:55:03,546  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:55:03,546  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:55:16,882  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:55:16,882  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:55:16,882  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:55:16,882  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:55:16,882  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:42:10][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:55:16,882  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:55:16,883  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:55:29,911  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:55:29,911  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:55:29,911  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:55:29,911  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:55:29,911  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:41:33][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:55:29,912  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:55:29,912  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:55:43,348  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:55:43,348  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:55:43,348  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:55:43,348  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:55:43,348  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:40:09][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:55:43,348  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:55:43,349  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:55:57,125  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:55:57,125  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:55:57,126  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:55:57,126  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:55:57,126  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:49:12][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:55:57,126  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:55:57,126  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:56:10,214  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:56:10,214  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:56:10,214  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:56:10,214  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:56:10,214  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:50:09][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:56:10,214  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:56:10,214  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:56:23,152  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:56:23,152  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:56:23,152  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:56:23,152  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:56:23,152  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:58:48][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:56:23,152  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:56:23,152  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:56:36,053  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:56:36,053  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:56:36,053  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:56:36,053  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=203054203_7][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:56:36,053  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257010_1][startTime=00:52:39][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:56:36,053  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:56:36,053  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:56:48,979  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:56:48,979  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:56:48,979  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:56:48,979  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:56:48,980  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:58:56][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:56:48,980  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:56:48,980  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:57:01,467  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:57:01,467  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:57:01,467  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:57:01,467  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:57:01,467  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:00:52][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:57:01,467  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:57:01,467  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:57:14,588  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:57:14,588  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:57:14,588  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:57:14,588  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:57:14,588  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:59:11][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:57:14,588  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:57:14,588  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:57:27,491  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:57:27,491  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:57:27,491  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:57:27,491  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:57:27,491  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:54:12][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:57:27,491  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:57:27,491  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:57:40,318  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:57:40,318  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:57:40,318  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:57:40,318  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:57:40,318  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:59:39][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:57:40,319  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:57:40,319  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:57:53,289  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:57:53,289  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:57:53,289  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:57:53,289  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:57:53,289  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:53:45][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:57:53,289  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:57:53,289  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:58:10,821  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:58:10,821  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:58:10,821  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:58:10,821  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:58:10,821  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:59:36][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:58:10,821  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:58:10,822  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:58:25,178  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:58:25,178  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:58:25,178  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:58:25,178  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:58:25,178  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:30][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:58:25,178  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:58:25,178  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:58:38,925  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:58:38,925  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:58:38,925  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:58:38,926  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:58:38,926  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:58:24][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:58:38,926  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:58:38,926  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:58:52,165  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:58:52,165  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:58:52,165  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:58:52,165  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:58:52,166  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:54:40][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:58:52,166  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:58:52,166  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:59:05,534  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:59:05,534  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:59:05,534  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:59:05,534  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:59:05,534  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:53:49][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:59:05,535  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:59:05,535  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:59:18,768  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:59:18,768  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:59:18,769  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:59:18,769  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:59:18,769  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:00:03][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:59:18,769  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:59:18,769  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:59:31,609  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:59:31,609  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:59:31,609  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:59:31,609  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:59:31,609  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:12][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:59:31,609  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:59:31,609  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:59:44,630  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:59:44,630  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:59:44,630  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:59:44,630  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:59:44,630  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:59:39][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:59:44,630  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:59:44,630  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 17:59:57,372  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 17:59:57,372  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 17:59:57,373  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 17:59:57,373  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 17:59:57,373  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:02:00][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 17:59:57,373  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 17:59:57,373  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:00:10,926  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:00:10,926  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:00:10,926  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:00:10,926  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:00:10,926  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:58:30][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:00:10,926  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:00:10,927  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:00:24,063  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:00:24,063  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:00:24,063  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:00:24,063  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:00:24,063  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:56:18][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:00:24,063  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:00:24,063  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:00:36,876  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:00:36,876  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:00:36,876  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:00:36,876  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:00:36,876  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:54:12][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:00:36,876  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:00:36,876  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:00:49,349  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:00:49,349  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:00:49,350  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:00:49,350  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:00:49,350  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:58:13][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:00:49,350  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:00:49,350  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:01:01,857  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:01:01,857  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:01:01,857  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:01:01,858  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:01:01,858  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:53:35][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:01:01,858  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:01:01,858  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:01:14,800  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:01:14,800  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:01:14,800  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:01:14,801  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:01:14,801  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:54:12][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:01:14,801  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:01:14,801  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:01:28,089  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:01:28,089  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:01:28,089  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:01:28,089  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:01:28,089  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:56:02][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:01:28,089  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:01:28,090  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:01:41,207  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:01:41,207  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:01:41,207  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:01:41,207  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:01:41,207  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:51:34][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:01:41,207  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:01:41,207  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:01:53,521  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:01:53,521  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:01:53,521  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:01:53,522  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:01:53,522  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:52:50][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:01:53,522  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:01:53,522  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:02:06,308  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:02:06,308  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:02:06,309  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:02:06,309  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:02:06,309  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:43:18][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:02:06,309  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:02:06,309  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:02:19,598  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:02:19,598  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:02:19,599  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:02:19,599  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:02:19,599  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:55:13][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:02:19,599  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:02:19,599  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:02:33,415  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:02:33,416  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:02:33,416  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:02:33,416  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:02:33,416  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:40:22][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:02:33,416  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:02:33,416  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:02:46,643  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:02:46,643  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:02:46,643  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:02:46,643  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:02:46,643  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:56:05][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:02:46,643  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:02:46,644  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:03:04,208  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:03:04,208  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:03:04,208  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:03:04,208  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:03:04,209  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:59:08][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:03:04,209  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:03:04,209  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:03:18,129  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:03:18,130  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:03:18,130  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:03:18,130  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:03:18,130  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:53:52][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:03:18,130  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:03:18,130  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:03:31,773  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:03:31,773  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:03:31,773  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:03:31,773  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:03:31,773  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:42:05][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:03:31,773  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:03:31,773  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:03:44,957  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:03:44,957  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:03:44,957  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:03:44,957  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:03:44,957  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:00:37][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:03:44,957  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:03:44,958  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:03:58,033  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:03:58,033  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:03:58,033  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:03:58,033  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:03:58,033  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:00:47][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:03:58,034  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:03:58,034  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:04:11,097  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:04:11,097  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:04:11,097  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:04:11,097  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:04:11,097  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:53:32][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:04:11,097  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:04:11,097  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:04:24,392  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:04:24,392  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:04:24,393  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:04:24,393  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:04:24,393  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:45:41][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:04:24,393  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:04:24,393  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:04:37,816  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:04:37,817  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:04:37,817  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:04:37,817  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:04:37,817  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:44:15][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:04:37,817  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:04:37,817  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:04:51,177  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:04:51,177  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:04:51,177  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:04:51,177  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:04:51,177  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:00:12][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:04:51,177  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:04:51,177  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:05:04,485  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:05:04,486  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:05:04,486  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:05:04,486  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:05:04,486  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:02][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:05:04,486  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:05:04,486  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:05:17,554  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:05:17,554  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:05:17,554  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:05:17,554  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:05:17,555  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:37:01][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:05:17,555  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:05:17,555  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:05:29,997  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:05:29,997  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:05:29,997  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:05:29,997  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:05:29,997  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:54:28][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:05:29,997  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:05:29,997  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:05:43,015  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:05:43,015  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:05:43,015  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:05:43,015  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:05:43,015  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:44:43][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:05:43,015  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:05:43,016  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:05:56,186  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:05:56,186  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:05:56,186  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:05:56,186  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:05:56,186  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:45:14][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:05:56,186  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:05:56,186  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:06:09,342  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:06:09,342  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:06:09,342  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:06:09,342  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:06:09,342  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:45:06][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:06:09,342  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:06:09,342  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:06:22,201  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:06:22,201  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:06:22,201  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:06:22,201  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:06:22,201  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:47:31][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:06:22,201  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:06:22,201  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:06:35,301  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:06:35,302  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:06:35,302  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:06:35,302  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:06:35,302  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:01:55][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:06:35,302  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:06:35,303  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:06:48,840  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:06:48,840  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:06:48,840  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:06:48,840  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:06:48,840  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:46][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:06:48,840  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:06:48,841  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:07:02,153  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:07:02,153  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:07:02,153  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:07:02,154  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:07:02,154  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:31][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:07:02,154  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:07:02,154  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:07:15,037  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:07:15,037  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:07:15,037  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:07:15,037  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:07:15,037  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:00:56][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:07:15,037  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:07:15,038  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:07:27,604  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:07:27,604  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:07:27,604  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:07:27,604  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:07:27,604  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:03:29][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:07:27,604  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:07:27,604  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:07:44,778  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:07:44,778  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:07:44,778  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:07:44,778  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:07:44,778  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:26][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:07:44,778  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:07:44,778  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:07:59,264  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:07:59,264  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:07:59,264  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:07:59,265  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:07:59,265  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:55:30][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:07:59,265  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:07:59,265  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:08:13,145  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:08:13,145  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:08:13,145  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:08:13,145  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:08:13,145  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:22][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:08:13,145  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:08:13,145  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:08:26,856  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:08:26,856  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:08:26,856  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:08:26,856  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:08:26,856  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:23][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:08:26,856  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:08:26,856  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:08:40,204  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:08:40,204  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:08:40,204  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:08:40,204  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:08:40,204  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:55:17][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:08:40,204  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:08:40,204  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:08:52,774  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:08:52,774  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:08:52,774  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:08:52,774  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:08:52,774  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:38][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:08:52,774  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:08:52,774  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:09:06,665  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:09:06,665  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:09:06,665  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:09:06,665  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:09:06,665  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:02:43][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:09:06,665  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:09:06,665  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:09:20,746  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:09:20,746  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:09:20,746  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:09:20,746  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:09:20,746  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:44:33][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:09:20,746  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:09:20,747  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:09:33,810  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:09:33,810  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:09:33,810  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:09:33,810  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:09:33,810  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:49:15][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:09:33,810  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:09:33,810  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:09:47,005  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:09:47,005  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:09:47,005  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:09:47,005  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:09:47,005  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:00:45][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:09:47,005  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:09:47,005  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:09:59,985  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:09:59,985  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:09:59,985  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:09:59,985  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:09:59,985  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:53:16][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:09:59,985  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:09:59,985  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:10:13,423  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:10:13,423  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:10:13,424  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:10:13,424  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:10:13,424  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:55:18][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:10:13,424  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:10:13,424  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:10:26,642  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:10:26,642  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:10:26,642  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:10:26,642  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:10:26,642  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:54:36][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:10:26,642  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:10:26,642  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:10:39,749  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:10:39,750  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:10:39,750  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:10:39,750  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:10:39,750  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:46:19][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:10:39,750  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:10:39,750  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:10:52,916  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:10:52,917  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:10:52,917  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:10:52,917  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:10:52,917  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:00:59][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:10:52,917  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:10:52,917  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:11:05,789  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:11:05,790  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:11:05,790  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:11:05,790  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:11:05,790  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:47:40][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:11:05,790  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:11:05,790  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:11:19,984  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:11:19,984  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:11:19,984  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:11:19,984  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:11:19,984  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:36:46][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:11:19,984  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:11:19,985  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:11:33,389  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:11:33,389  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:11:33,389  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:11:33,389  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:11:33,389  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:30:17][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:11:33,389  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:11:33,389  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:11:46,548  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:11:46,548  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:11:46,548  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:11:46,548  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:11:46,548  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:40:16][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:11:46,549  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:11:46,549  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:11:59,251  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:11:59,251  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:11:59,251  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:11:59,251  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:11:59,252  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:43:32][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:11:59,252  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:11:59,252  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:12:12,450  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:12:12,450  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:12:12,450  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:12:12,451  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:12:12,451  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:36:20][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:12:12,451  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:12:12,451  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:12:25,773  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:12:25,773  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:12:25,773  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:12:25,773  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:12:25,774  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=01:02:59][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:12:25,774  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:12:25,774  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:12:43,190  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:12:43,190  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:12:43,190  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:12:43,190  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=203054203_7][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:12:43,190  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257010_1][startTime=01:00:04][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:12:43,190  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:12:43,190  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:12:57,387  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:12:57,388  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:12:57,388  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:12:57,388  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:12:57,388  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:34:20][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:12:57,388  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:12:57,388  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:13:11,331  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:13:11,331  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:13:11,331  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:13:11,331  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:13:11,331  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:46:09][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:13:11,331  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:13:11,331  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:13:24,919  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:13:24,919  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:13:24,919  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:13:24,919  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:13:24,919  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:40:16][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:13:24,919  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:13:24,920  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:13:38,787  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:13:38,787  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:13:38,787  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:13:38,787  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:13:38,787  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:33:10][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:13:38,787  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:13:38,787  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:13:52,375  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:13:52,375  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:13:52,375  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:13:52,375  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:13:52,375  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:31:44][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:13:52,375  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:13:52,375  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:14:05,570  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:14:05,570  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:14:05,571  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:14:05,571  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:14:05,571  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:45:39][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:14:05,571  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:14:05,571  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:14:18,840  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:14:18,840  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:14:18,840  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:14:18,841  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:14:18,841  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:57:58][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:14:18,841  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:14:18,841  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:14:32,354  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:14:32,354  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:14:32,354  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:14:32,354  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:14:32,354  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:38:42][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:14:32,354  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:14:32,354  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:14:45,649  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:14:45,649  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:14:45,650  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:14:45,650  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:14:45,650  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:52:31][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:14:45,650  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:14:45,650  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:14:58,821  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:14:58,821  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:14:58,821  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:14:58,821  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:14:58,821  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:47:17][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:14:58,821  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:14:58,821  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:15:12,309  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:15:12,309  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:15:12,310  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:15:12,310  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:15:12,310  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:44:36][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:15:12,310  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:15:12,310  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:15:25,458  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:15:25,458  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:15:25,458  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:15:25,458  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:15:25,458  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:47:45][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:15:25,459  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:15:25,459  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:15:38,115  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:15:38,115  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:15:38,115  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:15:38,115  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:15:38,115  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:55:20][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:15:38,115  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:15:38,115  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
+2019-05-19 18:15:51,650  WARN CharyparNagelActivityScoring:252 The first and the last activity do not have the same type. 
+2019-05-19 18:15:51,650  WARN CharyparNagelActivityScoring:253 Will score the first activity from midnight to its end, and the last activity from its start to midnight.
+2019-05-19 18:15:51,650  WARN CharyparNagelActivityScoring:254 Because of the nonlinear function, this is not the same as scoring from start to end.
+2019-05-19 18:15:51,651  WARN CharyparNagelActivityScoring:255 first activity: [type=h][coord=null][linkId=173101426_0][startTime=undefined][endTime=00:00:00][duration=undefined][facilityId=null]
+2019-05-19 18:15:51,651  WARN CharyparNagelActivityScoring:256 last activity: [type=w][coord=null][linkId=28257000_1][startTime=00:43:44][endTime=undefined][duration=undefined][facilityId=null]
+2019-05-19 18:15:51,651  WARN CharyparNagelActivityScoring:257 This may also happen when plans are not completed when the simulation ends.
+2019-05-19 18:15:51,651  WARN CharyparNagelActivityScoring:259 Additional warnings of this type are suppressed.
