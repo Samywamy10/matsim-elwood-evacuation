@@ -72,7 +72,6 @@ class TransitRoute(XmlElement):
                 self.addRouteLink(link)
 
     def addDeparture(self, departure):
-        print('test')
         for item in self.xmlElement.findall("departures"):
             departure.setId(str(self.departuresCount))
             self.departuresCount += 1

@@ -6,6 +6,9 @@ class VehicleDefinitions(XmlElement):
     vehicleIds = []
 
     def __init__(self):
+        self.vehicleTypesCount = 0
+        self.vehiclesCount = 0
+        self.vehicleIds = []
         XmlElement.__init__(self, 'vehicleDefinitions')
         self.xmlElement.set('xmlns','http://www.matsim.org/files/dtd')
         self.xmlElement.set('xmlns:xsi','http://www.w3.org/2001/XMLSchema-instance')
@@ -48,6 +51,7 @@ class Vehicle(XmlElement):
     id = ''
     
     def __init__(self, inputId, typeId):
+        self.id = ''
         XmlElement.__init__(self, 'vehicle')
         self.id = 'bus_' + str(inputId)
         self.xmlElement.set('id', self.id)
