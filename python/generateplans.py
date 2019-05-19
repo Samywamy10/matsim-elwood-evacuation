@@ -102,7 +102,7 @@ def generatePlans(numberOfBuses,busSpacing,reRoute,changeLegMode,floodSpacing):
         modifyConfig(reRoute, False)
 
     os.chdir('../')
-    subprocess.call(['java', '-cp', 'matsim-0.10.1.jar', 'org.matsim.run.Controler', './config.xml', '-Xmx16024m', '-d64'])
+    #subprocess.call(['java', '-cp', 'matsim-0.10.1.jar', 'org.matsim.run.Controler', './config.xml', '-Xmx16024m', '-d64'])
 
     #summarise trip durations and total evacuation times into one file
     tripDurations = []
@@ -181,7 +181,7 @@ with open('../inputs.csv','r') as f:
         splitLine = line.split(',')
         splitLine[5], splitLine[6], splitLine[7], splitLine[8] = generatePlans(splitLine[0],splitLine[1],splitLine[2],splitLine[3],splitLine[4])
         results.append(splitLine)
-        with open('../results.csv','a') as f:
-            f.write(','.join(splitLine) + '\n') 
+        # with open('../results.csv','a') as f:
+        #     f.write(','.join(splitLine) + '\n') 
 
 
